@@ -124,7 +124,7 @@ class EncoderLayer(nn.Module):
         return x
 
 
-class Encoder(nn.Module):
+class EncoderBlock(nn.Module):
     def __init__(self, vocab_size, emb_size, n_heads, n_layers, expansion_factor=4):
         super().__init__()
 
